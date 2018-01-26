@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{32C3BDE6-E125-3128-82C1-25D0441455A3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_3;UNITY_5_6;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_VR;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Classes\Character Classes\BodyClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\CharacterActionClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\CharacterClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\CharacterConfigurationClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\CharacterNameClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\CognitionClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\MemoryClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\MindClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\PersonalityClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\PhysicalConditionClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\RoutineClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Character Classes\SocialClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Game Classes\DatabaseClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Game Classes\GamePanelClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Game Classes\PlayerClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\Game Classes\UITemplateClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\World Classes\DiaryClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\World Classes\ItemClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\World Classes\JobClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\World Classes\MapClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\World Classes\TimeCLassMONO.cs" />
+     <Compile Include="Assets\Scripts\Classes\World Classes\WorldObjectClassMONO.cs" />
+     <Compile Include="Assets\Scripts\Dictionaries\Character Dictionaries\CharacterLogicDictionary.cs" />
+     <Compile Include="Assets\Scripts\Dictionaries\Character Dictionaries\CharacterMentalDisorderDIctionary.cs" />
+     <Compile Include="Assets\Scripts\Dictionaries\Character Dictionaries\CharacterRelationshipDictionary.cs" />
+     <Compile Include="Assets\Scripts\Dictionaries\Game Dictionaries\GameColorPalette.cs" />
+     <Compile Include="Assets\Scripts\Dictionaries\Game Dictionaries\GameLogicDictionary.cs" />
+     <Compile Include="Assets\Scripts\Dictionaries\Game Dictionaries\GameobjectPathDictionary.cs" />
+     <Compile Include="Assets\Scripts\Dictionaries\Game Dictionaries\ScriptPathDictionary.cs" />
+     <Compile Include="Assets\Scripts\Dictionaries\World Dictionaries\DiaryDictionary.cs" />
+     <Compile Include="Assets\Scripts\Dictionaries\World Dictionaries\ItemDictionary.cs" />
+     <Compile Include="Assets\Scripts\Dictionaries\World Dictionaries\WorldDictionary.cs" />
+     <Compile Include="Assets\Scripts\Functions\Character Functions\Action\CharacterActionManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Character Functions\Character\CharacterConfigurationManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Character Functions\Character\CharacterCreationManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Character Functions\Character\CharacterManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Character Functions\Emotion\EmotionManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Character Functions\Thought\ThoughtManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Data Management\BasicStaticVariables.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Data Management\DatabaseManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Data Management\GameFileManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Data Management\MainDatabaseManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Data Management\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Data Management\SaveLoadManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Data Management\WriteJsonManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Build Asset Mode\BuildAssetStartUpdate.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Build Asset Mode\BuildAssetStatusManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Build Asset Mode\BuildAssetUIManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Build Game Mode\BuildGameStartUpdate.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Build Game Mode\BuildGameStatusManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Build Game Mode\BuildGameUIManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Intro Mode\IntroStartUpdate.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Intro Mode\IntroStatusManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Intro Mode\IntroUIManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Play Mode\GameStatusManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Play Mode\StartUpdate.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\Status Management\Play Mode\UIManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\UI Management\GalleryElementData.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\UI Management\GalleryUIManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\UI Management\HorizontalScrollUIManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\UI Management\MenuUIManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Game Functions\UI Management\ScrollPanelManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\Utilities\Utilities.cs" />
+     <Compile Include="Assets\Scripts\Functions\World Functions\Diary\DiaryInputManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\World Functions\Diary\DiaryInputReader.cs" />
+     <Compile Include="Assets\Scripts\Functions\World Functions\Inventory\InventoryManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\World Functions\Items\ItemManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\World Functions\Job\JobManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\World Functions\Map\MapManager.cs" />
+     <Compile Include="Assets\Scripts\Functions\World Functions\Time\TimeManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\BuildAssetMainMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\BuildCharacterMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\BuildInventoryMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\Map\BuildMapMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\Map\BuildMapOptionMenu.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\Map\BuildMapTypeMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\Map\BuildTileData.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\Map\SelectBuildMapPanelMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\Map\SelectBuildMapTemplateMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\Map\TestMapPanelManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\SelectBuildCharacterMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\SelectBuildInventoryMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Game Panels\Character Creation Menu\CharacterCreationMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Game Panels\Character Inspection Menu\CharacterInspectionManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Game Panels\Diary Menu\DiaryEntryMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Game Panels\NPC Management Menu\NPCMenuDescriptionManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Game Panels\NPC Management Menu\NPCMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Game Session Panels\Inventory Menu\InventoryMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Game Session Panels\Inventory Menu\InventorySlotHandler.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Game Session Panels\Inventory Menu\SlotItemHandler.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Game Session Panels\Main Menu Manager\MainMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Game Session Panels\Map Menu\MapMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Game Session Panels\Map Menu\TileData.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Game Session Panels\Pause Menu\PauseMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Game Session Panels\Player Character Menu\PlayerCharacterMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\General Panels\Intro Menu\IntroMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\General Panels\Select Game Menu\SelectGameMenuManager.cs" />
+ <Reference Include="Facebook.Unity.Settings">
+ <HintPath>/Users/xiao/Documents/thingies/Game Project/My project/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="LitJson">
+ <HintPath>/Users/xiao/Documents/thingies/Game Project/My project/Assets/Plugins/LitJson.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
