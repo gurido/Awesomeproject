@@ -11,6 +11,7 @@ public class JamUIManager : MonoBehaviour {
 	public GameObject CalendarWindow;
 	public GameObject BrowserWindow;
 	public GameObject DesktopMenu;
+	public GameObject LogInScreen;
 
 
 
@@ -39,14 +40,32 @@ public class JamUIManager : MonoBehaviour {
 		}
 	}
 
+	public void ToggleDiscordWindow(){
 
+
+	}
+
+
+	public void ToggleBrowserWindow(){
+
+
+	}
+
+	public void ToggleCalendarWindow(){
+	}
 
 
 	public void SwitchToDeskTop(){
 		DisableWindow ();
+		LogInScreen.SetActive (false);
 
 	}
 
+
+	public void SwitchToLogInScreen(){
+		LogInScreen.SetActive (true);
+
+	}
 	public void SwitchToDiscordWindow(){
 		DisableWindow ();
 		DiscordWindow.SetActive (true);

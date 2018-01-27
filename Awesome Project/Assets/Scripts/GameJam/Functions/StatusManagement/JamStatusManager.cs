@@ -44,12 +44,23 @@ public class JamStatusManager : MonoBehaviour {
 
 	}
 
+	public void SwitchToLogInScreen(){
+		statusmanagerstate = 0;
+		uimanager.SwitchToLogInScreen ();
+
+	}
+
+
+
+
 	public void SwitchToDesktopMenu(){
 		statusmanagerstate = 1;
 		uimanager.SwitchToDeskTop ();
 
 
 	}
+
+
 
 
 	public void SwitchToDiscordWindow(){
@@ -77,7 +88,9 @@ public class JamStatusManager : MonoBehaviour {
 
 
 
+	public void SwitchToSettingsWindow(){
 
+	}
 
 	public void StatusManagerUpdate(){
 
