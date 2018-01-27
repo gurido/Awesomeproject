@@ -122,6 +122,7 @@
      <Compile Include="Assets\Scripts\Functions\World Functions\Map\MapManager.cs" />
      <Compile Include="Assets\Scripts\Functions\World Functions\Time\TimeManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\CalendarClass.cs" />
+     <Compile Include="Assets\Scripts\GameJam\Classes\JamChatClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\JamNPCClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\JamPlayerClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Functions\Data Management\JamMainDatabaseManager.cs" />
