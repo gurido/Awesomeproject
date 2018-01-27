@@ -6,6 +6,7 @@ public class JamDesktopManager : MonoBehaviour {
 
 	private JamStatusManager statusmanager;
 
+
 	public void StartDesktopManager(){
 		statusmanager = GetComponent<JamStatusManager> ();
 
