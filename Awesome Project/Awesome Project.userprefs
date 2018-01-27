@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameJam/Gameobjects/BrowserWindow/JamBrowserManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/GameJam/Functions/StatusManagement/JamStatusManager.cs" Line="49" Column="32" />
+      <File FileName="Assets/Scripts/GameJam/Functions/StatusManagement/JamUIManager.cs" Line="17" Column="22" />
+      <File FileName="Assets/Scripts/GameJam/Gameobjects/DesktopWindow/JamDesktopManager.cs" Line="14" Column="2" />
+      <File FileName="Assets/Scripts/GameJam/Gameobjects/DiscordWindow/JamDiscordManager.cs" Line="31" Column="3" />
+      <File FileName="Assets/Scripts/GameJam/Gameobjects/CalendarWindow/JamCalendarManager.cs" Line="20" Column="3" />
+      <File FileName="Assets/Scripts/GameJam/Gameobjects/BrowserWindow/JamBrowserManager.cs" Line="28" Column="17" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
