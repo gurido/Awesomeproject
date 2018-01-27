@@ -50,6 +50,7 @@ public class JamUIManager : MonoBehaviour {
 	public void SwitchToDiscordWindow(){
 		DisableWindow ();
 		DiscordWindow.SetActive (true);
+	
 
 	}
 	public void SwitchToBrowserWindow(){
