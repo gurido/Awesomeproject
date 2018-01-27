@@ -125,6 +125,7 @@
      <Compile Include="Assets\Scripts\GameJam\Classes\JamChatClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\JamNPCClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\JamPlayerClass.cs" />
+     <Compile Include="Assets\Scripts\GameJam\Dictionaries\JamPathDictionary.cs" />
      <Compile Include="Assets\Scripts\GameJam\Functions\Data Management\JamMainDatabaseManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Functions\Data Management\JamWriteJsonManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Functions\StatusManagement\JamStartUpdateManager.cs" />

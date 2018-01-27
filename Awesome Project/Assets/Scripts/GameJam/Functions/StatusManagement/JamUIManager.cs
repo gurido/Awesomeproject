@@ -37,8 +37,8 @@ public class JamUIManager : MonoBehaviour {
 		} else {
 			DesktopMenu.SetActive (true);
 		}
-
 	}
+
 
 
 
