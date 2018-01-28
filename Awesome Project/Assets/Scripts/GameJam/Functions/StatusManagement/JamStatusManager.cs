@@ -19,7 +19,9 @@ public class JamStatusManager : MonoBehaviour {
 		FindScripts ();
 		maindatabasemanager.LoadMainDatabase ();
 		StartScripts ();
-		SwitchToDesktopMenu ();
+
+		SwitchToLogInScreen ();
+		//SwitchToDesktopMenu ();
 
 	}
 
