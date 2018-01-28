@@ -125,9 +125,11 @@
      <Compile Include="Assets\Scripts\GameJam\Classes\JamChatClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\JamNPCClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\JamPlayerClass.cs" />
+     <Compile Include="Assets\Scripts\GameJam\Classes\JamSound.cs" />
      <Compile Include="Assets\Scripts\GameJam\Dictionaries\JamPathDictionary.cs" />
      <Compile Include="Assets\Scripts\GameJam\Functions\Data Management\JamMainDatabaseManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Functions\Data Management\JamWriteJsonManager.cs" />
+     <Compile Include="Assets\Scripts\GameJam\Functions\StatusManagement\JamAudioManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Functions\StatusManagement\JamStartUpdateManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Functions\StatusManagement\JamStatusManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Functions\StatusManagement\JamUIManager.cs" />
@@ -135,6 +137,7 @@
      <Compile Include="Assets\Scripts\GameJam\Gameobjects\CalendarWindow\JamCalendarManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Gameobjects\DesktopWindow\JamDesktopManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Gameobjects\DiscordWindow\JamDiscordManager.cs" />
+     <Compile Include="Assets\Scripts\GameJam\Gameobjects\DiscordWindow\JamMessagePanel.cs" />
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\BuildAssetMainMenuManager.cs" />
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\BuildCharacterMenuManager.cs" />
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\BuildInventoryMenuManager.cs" />
@@ -162,6 +165,7 @@
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\Game Session Panels\Player Character Menu\PlayerCharacterMenuManager.cs" />
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\General Panels\Intro Menu\IntroMenuManager.cs" />
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\General Panels\Select Game Menu\SelectGameMenuManager.cs" />
+     <None Include="Assets\Resources\GameJam\Audio\links de interes.txt" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/xiao/Documents/GitHub/Awesomeproject/Awesome Project/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
