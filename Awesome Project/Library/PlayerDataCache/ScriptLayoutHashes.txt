@@ -157,13 +157,14 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DiaryDictionary
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SocialClassMONO
 8e0ccf126dffd328d95a50f9b03b3b49 Assembly-CSharp.dll:.MenuUIManager
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.JamDiscordManager
+05abf3e3c9661546b18346773a8238d6 Assembly-CSharp.dll:.JamDiscordManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ThoughtManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.CognitionClassMONO
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BasicStaticVariables
 7f3ea7a07deb03d7af64f92aafe6454e Assembly-CSharp.dll:.BuildTileData
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.IntroStartUpdate
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.ItemDictionary
+5350941890ccbd29ea9c4a1efe405233 Assembly-CSharp.dll:.JamAudioManager
 c6750a3c0609f6a8807be915f12a2a8e Assembly-CSharp.dll:.TimeManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.IntroMenuManager
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
@@ -206,12 +207,13 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 64eb32cc721b1cc68a91ed57461e188c UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.RemoteTestResultSender
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Utilities
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
+a3d13934824638c17cad1168d158a0ea Assembly-CSharp.dll:.JamMessagePanel
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BuildCharacterMenuManager
 3a1574c84e7b2e57b1ab8cb6ec9b5e15 Assembly-CSharp.dll:.MapMenuManager
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 986a6cf549df7622dad4beea7da42ee8 Assembly-CSharp.dll:.HorizontalScrollUIManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.GameLogicDictionary
-88514c15718d3581e12d2e8e924b44a1 Assembly-CSharp.dll:.JamStatusManager
+800775fbb5ea3d321c457b41326b2519 Assembly-CSharp.dll:.JamStatusManager
 91d410812213768bc4d895223b9b2989 Assembly-CSharp.dll:.NPCMenuDescriptionManager
 bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
@@ -228,6 +230,7 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DatabaseClassMONO
 88514c15718d3581e12d2e8e924b44a1 Assembly-CSharp.dll:.BuildAssetStatusManager
 dee13cea7cccd58e9361df7fc373d6c9 Assembly-CSharp.dll:.CharacterConfigurationManager
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.JamEventClass
 dac9271b4bffc19448996fdd6b2bd8b2 Assembly-CSharp.dll:.InventoryMenuManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.WorldDictionary
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.JamBrowserManager
@@ -245,4 +248,4 @@ dac9271b4bffc19448996fdd6b2bd8b2 Assembly-CSharp.dll:.InventoryMenuManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.BuildInventoryMenuManager
 ced98f78f634de7187e223a4c93bf37c Assembly-CSharp.dll:.DiaryInputManager
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.MindClassMONO
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.JamAudioManager
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.JamLogInMenuManager

@@ -123,6 +123,7 @@
      <Compile Include="Assets\Scripts\Functions\World Functions\Time\TimeManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\CalendarClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\JamChatClass.cs" />
+     <Compile Include="Assets\Scripts\GameJam\Classes\JamEventClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\JamNPCClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\JamPlayerClass.cs" />
      <Compile Include="Assets\Scripts\GameJam\Classes\JamSound.cs" />
@@ -165,6 +166,7 @@
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\Game Session Panels\Player Character Menu\PlayerCharacterMenuManager.cs" />
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\General Panels\Intro Menu\IntroMenuManager.cs" />
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\General Panels\Select Game Menu\SelectGameMenuManager.cs" />
+     <Compile Include="Assets\Scripts\GameObjects\Game Panels\Log In Menu\JamLogInMenuManager.cs" />
      <None Include="Assets\Resources\GameJam\Audio\links de interes.txt" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>/Users/xiao/Documents/GitHub/Awesomeproject/Awesome Project/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>

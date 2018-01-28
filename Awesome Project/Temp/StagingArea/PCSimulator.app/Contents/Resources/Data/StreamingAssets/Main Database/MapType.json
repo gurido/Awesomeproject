@@ -1,0 +1,68 @@
+[
+  {
+    "ID": 0,
+    "Name": "Map Type",
+    "Content": [
+      {
+        "ID": 0,
+        "Name": "None",
+        "Description": "No type",
+        "SubtypeList": [
+          {
+            "ID": 0,
+            "Name": "nothing",
+            "Description": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": 1,
+    "Name": "Tile Type",
+    "Content": [
+      {
+        "ID": 0,
+        "Name": "None",
+        "Description": "No type",
+        "SubtypeList": []
+      },
+      {
+        "ID": 1,
+        "Name": "Soil",
+        "Description": "Soil ground",
+        "SubtypeList": []
+      },
+      {
+        "ID": 2,
+        "Name": "Wood Floor",
+        "Description": "Soil ground",
+        "SubtypeList": []
+      },
+      {
+        "ID": 3,
+        "Name": "Stone Floor",
+        "Description": "Soil ground",
+        "SubtypeList": []
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Map Object Type",
+    "Content": [
+      {
+        "ID": 0,
+        "Name": "None",
+        "Description": "No Type",
+        "SubtypeList": [
+          {
+            "ID": 0,
+            "Name": "nothing",
+            "Description": ""
+          }
+        ]
+      }
+    ]
+  }
+]

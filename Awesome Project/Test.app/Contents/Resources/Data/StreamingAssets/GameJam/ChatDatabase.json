@@ -5,19 +5,21 @@
 "Message" : [
 {"ID" : 0,
 "User" : 1,
-"Content" : "hello"},
+"Content" : "Hey Maria, what's up? How did the moving go?"},
 {"ID" : 1,
-"User" : 0,
-"Content" : "hi"}
-]
+"User" : -1,
+"Content" : "It went fine i guess, but i feel really tired at the moment."}
+, {"ID" : 2,
+"User" : 1,
+"Content" : "I see, that is okay, i mean it is your first day, movings are very energy draining after all."}]
 },
 
 {
 "ID" : 1,
-"User" : 2,
+"User" : 1,
 "Message" : [
 {"ID" : 0,
-"User" : 1,
+"User" : -1,
 "Content" : "sup"},
 {"ID" : 1,
 "User" : 0,

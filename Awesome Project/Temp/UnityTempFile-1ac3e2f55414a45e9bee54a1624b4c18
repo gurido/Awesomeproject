@@ -1,0 +1,266 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:'Temp/Assembly-CSharp.dll'
+-unsafe
+-optimize
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.CoreModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AccessibilityModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ParticleSystemModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.PhysicsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.VehiclesModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ClothModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AnimationModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TextRenderingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TerrainPhysicsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.IMGUIModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ClusterInputModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ClusterRendererModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UNETModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.DirectorModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityAnalyticsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.PerformanceReportingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityConnectModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.WebModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ARModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.VRModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UIElementsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.StyleSheetsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AssetBundleModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.AudioModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.CrashReportingModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.GameCenterModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.GridModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ImageConversionModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.InputModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.JSONSerializeModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ParticlesLegacyModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.Physics2DModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.ScreenCaptureModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.SharedInternalsModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.SpriteMaskModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.SpriteShapeModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TerrainModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.TilemapModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestAudioModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestTextureModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.UnityWebRequestWWWModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.VideoModule.dll'
+-r:'/Applications/Unity/PlaybackEngines/WindowsStandaloneSupport/Managed/UnityEngine.WindModule.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Timeline/Runtime/UnityEngine.Timeline.dll'
+-r:'/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/Runtime/UnityEngine.SpatialTracking.dll'
+-r:'Assets/Plugins/LitJson.dll'
+-r:'/Users/xiao/Library/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll'
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_3_0
+-define:UNITY_2017_3
+-define:UNITY_2017
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_GRID
+-define:ENABLE_TILEMAP
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_DIRECTOR
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_TIMELINE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:ENABLE_SPRITE_MASKING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:ENABLE_MONO_BDWGC
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_VIDEO
+-define:ENABLE_RMGUI
+-define:ENABLE_PACKMAN
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_STYLE_SHEETS
+-define:ENABLE_LOCALIZATION
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_AR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0_SUBSET
+'Assets/Scripts/Classes/Character Classes/BodyClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/CharacterActionClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/CharacterClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/CharacterConfigurationClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/CharacterNameClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/CognitionClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/MemoryClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/MindClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/PersonalityClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/PhysicalConditionClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/RoutineClassMONO.cs'
+'Assets/Scripts/Classes/Character Classes/SocialClassMONO.cs'
+'Assets/Scripts/Classes/Game Classes/DatabaseClassMONO.cs'
+'Assets/Scripts/Classes/Game Classes/GamePanelClassMONO.cs'
+'Assets/Scripts/Classes/Game Classes/PlayerClassMONO.cs'
+'Assets/Scripts/Classes/Game Classes/UITemplateClassMONO.cs'
+'Assets/Scripts/Classes/World Classes/DiaryClassMONO.cs'
+'Assets/Scripts/Classes/World Classes/ItemClassMONO.cs'
+'Assets/Scripts/Classes/World Classes/JobClassMONO.cs'
+'Assets/Scripts/Classes/World Classes/MapClassMONO.cs'
+'Assets/Scripts/Classes/World Classes/TimeCLassMONO.cs'
+'Assets/Scripts/Classes/World Classes/WorldObjectClassMONO.cs'
+'Assets/Scripts/Dictionaries/Character Dictionaries/CharacterLogicDictionary.cs'
+'Assets/Scripts/Dictionaries/Character Dictionaries/CharacterMentalDisorderDIctionary.cs'
+'Assets/Scripts/Dictionaries/Character Dictionaries/CharacterRelationshipDictionary.cs'
+'Assets/Scripts/Dictionaries/Game Dictionaries/GameColorPalette.cs'
+'Assets/Scripts/Dictionaries/Game Dictionaries/GameLogicDictionary.cs'
+'Assets/Scripts/Dictionaries/Game Dictionaries/GameobjectPathDictionary.cs'
+'Assets/Scripts/Dictionaries/Game Dictionaries/ScriptPathDictionary.cs'
+'Assets/Scripts/Dictionaries/World Dictionaries/DiaryDictionary.cs'
+'Assets/Scripts/Dictionaries/World Dictionaries/ItemDictionary.cs'
+'Assets/Scripts/Dictionaries/World Dictionaries/WorldDictionary.cs'
+'Assets/Scripts/Functions/Character Functions/Action/CharacterActionManager.cs'
+'Assets/Scripts/Functions/Character Functions/Character/CharacterConfigurationManager.cs'
+'Assets/Scripts/Functions/Character Functions/Character/CharacterCreationManager.cs'
+'Assets/Scripts/Functions/Character Functions/Character/CharacterManager.cs'
+'Assets/Scripts/Functions/Character Functions/Emotion/EmotionManager.cs'
+'Assets/Scripts/Functions/Character Functions/Thought/ThoughtManager.cs'
+'Assets/Scripts/Functions/Game Functions/Data Management/BasicStaticVariables.cs'
+'Assets/Scripts/Functions/Game Functions/Data Management/DatabaseManager.cs'
+'Assets/Scripts/Functions/Game Functions/Data Management/GameFileManager.cs'
+'Assets/Scripts/Functions/Game Functions/Data Management/MainDatabaseManager.cs'
+'Assets/Scripts/Functions/Game Functions/Data Management/PlayerManager.cs'
+'Assets/Scripts/Functions/Game Functions/Data Management/SaveLoadManager.cs'
+'Assets/Scripts/Functions/Game Functions/Data Management/WriteJsonManager.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Build Asset Mode/BuildAssetStartUpdate.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Build Asset Mode/BuildAssetStatusManager.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Build Asset Mode/BuildAssetUIManager.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Build Game Mode/BuildGameStartUpdate.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Build Game Mode/BuildGameStatusManager.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Build Game Mode/BuildGameUIManager.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Intro Mode/IntroStartUpdate.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Intro Mode/IntroStatusManager.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Intro Mode/IntroUIManager.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Play Mode/GameStatusManager.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Play Mode/StartUpdate.cs'
+'Assets/Scripts/Functions/Game Functions/Status Management/Play Mode/UIManager.cs'
+'Assets/Scripts/Functions/Game Functions/UI Management/GalleryElementData.cs'
+'Assets/Scripts/Functions/Game Functions/UI Management/GalleryUIManager.cs'
+'Assets/Scripts/Functions/Game Functions/UI Management/HorizontalScrollUIManager.cs'
+'Assets/Scripts/Functions/Game Functions/UI Management/MenuUIManager.cs'
+'Assets/Scripts/Functions/Game Functions/UI Management/ScrollPanelManager.cs'
+'Assets/Scripts/Functions/Utilities/Utilities.cs'
+'Assets/Scripts/Functions/World Functions/Diary/DiaryInputManager.cs'
+'Assets/Scripts/Functions/World Functions/Diary/DiaryInputReader.cs'
+'Assets/Scripts/Functions/World Functions/Inventory/InventoryManager.cs'
+'Assets/Scripts/Functions/World Functions/Items/ItemManager.cs'
+'Assets/Scripts/Functions/World Functions/Job/JobManager.cs'
+'Assets/Scripts/Functions/World Functions/Map/MapManager.cs'
+'Assets/Scripts/Functions/World Functions/Time/TimeManager.cs'
+'Assets/Scripts/GameJam/Classes/CalendarClass.cs'
+'Assets/Scripts/GameJam/Classes/JamChatClass.cs'
+'Assets/Scripts/GameJam/Classes/JamEventClass.cs'
+'Assets/Scripts/GameJam/Classes/JamNPCClass.cs'
+'Assets/Scripts/GameJam/Classes/JamPlayerClass.cs'
+'Assets/Scripts/GameJam/Classes/JamSound.cs'
+'Assets/Scripts/GameJam/Dictionaries/JamPathDictionary.cs'
+'Assets/Scripts/GameJam/Functions/Data Management/JamMainDatabaseManager.cs'
+'Assets/Scripts/GameJam/Functions/Data Management/JamWriteJsonManager.cs'
+'Assets/Scripts/GameJam/Functions/StatusManagement/JamAudioManager.cs'
+'Assets/Scripts/GameJam/Functions/StatusManagement/JamStartUpdateManager.cs'
+'Assets/Scripts/GameJam/Functions/StatusManagement/JamStatusManager.cs'
+'Assets/Scripts/GameJam/Functions/StatusManagement/JamUIManager.cs'
+'Assets/Scripts/GameJam/Gameobjects/BrowserWindow/JamBrowserManager.cs'
+'Assets/Scripts/GameJam/Gameobjects/CalendarWindow/JamCalendarManager.cs'
+'Assets/Scripts/GameJam/Gameobjects/DesktopWindow/JamDesktopManager.cs'
+'Assets/Scripts/GameJam/Gameobjects/DiscordWindow/JamDiscordManager.cs'
+'Assets/Scripts/GameJam/Gameobjects/DiscordWindow/JamMessagePanel.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/BuildAssetMainMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/BuildCharacterMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/BuildInventoryMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/Map/BuildMapMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/Map/BuildMapOptionMenu.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/Map/BuildMapTypeMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/Map/BuildTileData.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/Map/SelectBuildMapPanelMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/Map/SelectBuildMapTemplateMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/Map/TestMapPanelManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/SelectBuildCharacterMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Asset Panels/SelectBuildInventoryMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Game Panels/Character Creation Menu/CharacterCreationMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Game Panels/Character Inspection Menu/CharacterInspectionManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Game Panels/Diary Menu/DiaryEntryMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Game Panels/NPC Management Menu/NPCMenuDescriptionManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Build Game Panels/NPC Management Menu/NPCMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Game Session Panels/Inventory Menu/InventoryMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Game Session Panels/Inventory Menu/InventorySlotHandler.cs'
+'Assets/Scripts/GameObjects/Game Panels/Game Session Panels/Inventory Menu/SlotItemHandler.cs'
+'Assets/Scripts/GameObjects/Game Panels/Game Session Panels/Main Menu Manager/MainMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Game Session Panels/Map Menu/MapMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Game Session Panels/Map Menu/TileData.cs'
+'Assets/Scripts/GameObjects/Game Panels/Game Session Panels/Pause Menu/PauseMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Game Session Panels/Player Character Menu/PlayerCharacterMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/General Panels/Intro Menu/IntroMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/General Panels/Select Game Menu/SelectGameMenuManager.cs'
+'Assets/Scripts/GameObjects/Game Panels/Log In Menu/JamLogInMenuManager.cs'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.Lang.dll'
+-r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/Boo.Lang.dll'
+-sdk:unity

@@ -48,10 +48,5 @@ public class JamDesktopManager : MonoBehaviour {
 	}
 
 
-	public void LogIn(){
-		statusmanager.SwitchToDesktopMenu ();
-		audiomanager.Play ("LogIn");
-
-	}
 
 }

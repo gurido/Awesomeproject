@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class JamStatusManager : MonoBehaviour {
 	public int statusmanagerstate;
+	public int gameprogress;
 	public GameObject maincanvasmenu;
 
 	private JamUIManager uimanager;
@@ -14,6 +15,7 @@ public class JamStatusManager : MonoBehaviour {
 	private JamDesktopManager desktopmanager;
 	private JamDiscordManager discordmanager;
 	private JamBrowserManager browsermanager;
+	private JamLogInMenuManager loginmanager;
 
 	public void StatusManagerStart(){
 		FindScripts ();
@@ -35,6 +37,7 @@ public class JamStatusManager : MonoBehaviour {
 		desktopmanager = GetComponent<JamDesktopManager> ();
 		discordmanager = GetComponent<JamDiscordManager> ();
 		browsermanager = GetComponent<JamBrowserManager> ();
+		loginmanager = GetComponent<JamLogInMenuManager> ();
 
 
 	}
@@ -47,6 +50,7 @@ public class JamStatusManager : MonoBehaviour {
 		desktopmanager.StartDesktopManager ();
 		discordmanager.StartDiscordManager ();
 		browsermanager.StartBrowserManager ();
+		loginmanager.StartLogInMenuManager ();
 
 
 	}
