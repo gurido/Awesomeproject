@@ -4,12 +4,15 @@ using UnityEngine;
 
 [SerializeField]
 public class JamPlayer{
+	public int ID;
 	public string Name;
-	public int Day;
-	public int Hour;
 
 
+	public JamPlayer(int id, string name){
+		ID = id;
+		Name = name;
 
+	}
 
 }
 

@@ -8,6 +8,7 @@ public class JamStatusManager : MonoBehaviour {
 
 	private JamUIManager uimanager;
 	private JamWriteJsonManager writejsonmanager;
+	private JamMainDatabaseManager maindatabasemanager;
 
 	private JamCalendarManager calendarmanager;
 	private JamDesktopManager desktopmanager;
@@ -16,6 +17,7 @@ public class JamStatusManager : MonoBehaviour {
 
 	public void StatusManagerStart(){
 		FindScripts ();
+		maindatabasemanager.LoadMainDatabase ();
 		StartScripts ();
 		SwitchToDesktopMenu ();
 
@@ -25,6 +27,8 @@ public class JamStatusManager : MonoBehaviour {
 	private void FindScripts(){
 		uimanager = GetComponent<JamUIManager> ();
 		writejsonmanager = GetComponent<JamWriteJsonManager> ();
+		maindatabasemanager = GetComponent<JamMainDatabaseManager> ();
+
 		calendarmanager = GetComponent<JamCalendarManager> ();
 		desktopmanager = GetComponent<JamDesktopManager> ();
 		discordmanager = GetComponent<JamDiscordManager> ();
@@ -36,6 +40,7 @@ public class JamStatusManager : MonoBehaviour {
 	private void StartScripts(){
 		uimanager.StartUIManager ();
 		writejsonmanager.StartWriteJsonManager ();
+
 		calendarmanager.StartCalendarManager ();
 		desktopmanager.StartDesktopManager ();
 		discordmanager.StartDiscordManager ();
@@ -43,6 +48,10 @@ public class JamStatusManager : MonoBehaviour {
 
 
 	}
+
+
+
+
 
 	public void SwitchToLogInScreen(){
 		statusmanagerstate = 0;

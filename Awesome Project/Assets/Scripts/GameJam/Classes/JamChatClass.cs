@@ -25,11 +25,11 @@ public class JamChat{
 	public int User;
 	public List<JamMessage> Message;
 
-	public JamChat(int id, int user){
+	public JamChat(int id, int user, List<JamMessage> message){
 
 		ID = id;
 		User = user;
-		Message = new List<JamMessage> ();
+		Message = message;
 
 	}
 

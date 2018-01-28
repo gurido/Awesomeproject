@@ -18,16 +18,30 @@ public class JamWriteJsonManager : MonoBehaviour {
 	}
 
 
-	/*
-	public void WriteDatabaseMap(){
-		writejson = JsonMapper.ToJson (maindatabase.DatabaseMapList);
-		File.WriteAllText(Application.streamingAssetsPath + "/Main Database/MapDatabase.json", writejson.ToString());
+	public void WriteChatDatabase(){
+		writejson = JsonMapper.ToJson (maindatabase.ChatDatabase);
+		File.WriteAllText (Application.streamingAssetsPath + "/GameJam/ChatDatabase.json", writejson.ToString ());
+
 	}
 
-	public void WriteMapLogic(){
-	writejson = JsonMapper.ToJson (maindatabase.DatabaseMapLogic);
-	File.WriteAllText(Application.streamingAssetsPath + "/Main Database/MapType.json", writejson.ToString());
+	public void WriteNPCDatabase(){
+		writejson = JsonMapper.ToJson (maindatabase.NPCDatabase);
+		File.WriteAllText (Application.streamingAssetsPath + "/GameJam/NPCDatabase.json", writejson.ToString ());
 
-	}*/
+	}
+
+	public void WriteCalendarDatabase(){
+		writejson = JsonMapper.ToJson (maindatabase.CalendarDatabase);
+		File.WriteAllText (Application.streamingAssetsPath + "/GameJam/CalendarDatabase.json", writejson.ToString ());
+
+	}
+
+
+	public void WritePlayerDatabase(){
+		writejson = JsonMapper.ToJson (maindatabase.PlayerDatabase);
+		File.WriteAllText (Application.streamingAssetsPath + "/GameJam/PlayerData.json", writejson.ToString ());
+
+	}
+
 
 }
