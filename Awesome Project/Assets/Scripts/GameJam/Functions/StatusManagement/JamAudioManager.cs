@@ -1,16 +1,36 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using UnityEngine.Audio;
 using UnityEngine;
+using System;
 
 public class JamAudioManager : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+
+	public JamSound[] sounds;
+
+	void Awake(){
+		foreach (JamSound s in sounds) {
+
+			s.source = gameObject.AddComponent<AudioSource> ();
+			s.source.clip = s.clip;
+
+			s.source.volume = s.volume;
+			s.source.pitch = s.pitch;
+
+		}
+
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+
+	public void Play(string name){
+
+		JamSound s =  Array.Find (sounds, JamSound => JamSound.name == name);
+		s.source.Play ();
+
+		//Debug.Log ("Played sound " + name);
+
 	}
+
+
+
+
 }
