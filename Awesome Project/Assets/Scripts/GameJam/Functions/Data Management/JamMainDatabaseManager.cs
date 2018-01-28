@@ -26,13 +26,13 @@ public class JamMainDatabaseManager : MonoBehaviour {
 		LoadChatData ();
 		LoadNPCData ();
 		LoadCalendarData ();
+		Debug.Log (NPCDatabase.Count);
 
 
 	}
 
 
 	public void LoadPlayerData(){
-		NPCDatabase.Clear ();
 		CurrentJsonData = JsonMapper.ToObject (File.ReadAllText (Application.streamingAssetsPath + "/GameJam/PlayerData.json"));
 		NPCDatabase = CurrentNPCDatabase;
 
@@ -41,7 +41,6 @@ public class JamMainDatabaseManager : MonoBehaviour {
 
 
 	public void LoadChatData(){
-		NPCDatabase.Clear ();
 		CurrentJsonData = JsonMapper.ToObject (File.ReadAllText (Application.streamingAssetsPath + "/GameJam/ChatDatabase.json"));
 		LoadChatList ();
 		ChatDatabase = CurrentChatDatabase;
@@ -51,7 +50,6 @@ public class JamMainDatabaseManager : MonoBehaviour {
 
 
 	public void LoadCalendarData(){
-		NPCDatabase.Clear ();
 		CurrentJsonData = JsonMapper.ToObject (File.ReadAllText (Application.streamingAssetsPath + "/GameJam/CalendarDatabase.json"));
 		LoadCalendarList ();
 		CalendarDatabase = CurrentCalendarDatabase;
@@ -61,7 +59,6 @@ public class JamMainDatabaseManager : MonoBehaviour {
 
 
 	public void LoadNPCData(){
-		NPCDatabase.Clear ();
 		CurrentJsonData = JsonMapper.ToObject (File.ReadAllText (Application.streamingAssetsPath + "/GameJam/NPCDatabase.json"));
 		LoadNPCList();
 		NPCDatabase = CurrentNPCDatabase;

@@ -137,6 +137,7 @@
      <Compile Include="Assets\Scripts\GameJam\Gameobjects\CalendarWindow\JamCalendarManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Gameobjects\DesktopWindow\JamDesktopManager.cs" />
      <Compile Include="Assets\Scripts\GameJam\Gameobjects\DiscordWindow\JamDiscordManager.cs" />
+     <Compile Include="Assets\Scripts\GameJam\Gameobjects\DiscordWindow\JamMessagePanel.cs" />
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\BuildAssetMainMenuManager.cs" />
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\BuildCharacterMenuManager.cs" />
      <Compile Include="Assets\Scripts\GameObjects\Game Panels\Build Asset Panels\BuildInventoryMenuManager.cs" />
